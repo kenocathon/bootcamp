@@ -1,0 +1,1 @@
+This is a sample file to test how git works for a Web Bootcamp class.
