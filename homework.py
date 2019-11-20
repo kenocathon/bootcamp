@@ -11,9 +11,10 @@ for i in list_1:
   num_squared = i ** 2
   squares.append(num_squared)
 
-for i in list_1:
+for i in list_2:
   num_cubed = i ** 2
   cubes.append(num_cubed)
+
 
 # Create another list called “biglist” which is the composite of the squares # # and cubes.
 biglist = squares + cubes
