@@ -12,7 +12,7 @@ for i in list_1:
   squares.append(num_squared)
 
 for i in list_2:
-  num_cubed = i ** 2
+  num_cubed = i ** 3
   cubes.append(num_cubed)
 
 
