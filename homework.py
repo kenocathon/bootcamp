@@ -22,10 +22,9 @@ biglist = squares + cubes
 # Print out all the values from the big list. If the value is an odd number, # # print out “is an odd number”, and if it’s even, print “is an even number”.
 for x in biglist:   
     if x % 2 != 0: 
-        x = str(x)
-        print(x + ' is an odd number') 
+      x = str(x)
+      print(x + ' is an odd number') 
+    else:
+      x = str(x)
+      print(x + ' is an even number')
 
-for n in biglist:
-    if n % 2 == 0:
-        n = str(n)
-        print(n + ' is an even number')
