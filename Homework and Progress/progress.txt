@@ -1,5 +1,7 @@
 Current Progress:
-Designing a Technical Solution : Module 1, Identifying User Needs.
+Microsoft Professional Orientation: Completed
+Introduction to Python: Completed
+Designing a Technical Solution : Module 1, Interaction and User Interface Design.
 
 Web App Idea:
 Admin page:
