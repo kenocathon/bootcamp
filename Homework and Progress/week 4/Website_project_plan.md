@@ -1,6 +1,7 @@
 ### Web App Idea:
 <a id="admin"></a>
-#### Admin page (Farmers): 
+
+### Admin page (Farmers): 
 
  This is where the farmers can access their account. They will have access to a calendar and reporting tools that will show them how their business is doing. They will be able to update their profile and listing on the website. This is also where their payment/personal information is saved.
 
