@@ -1,0 +1,4 @@
+## Encoding
+Computers store all letters and characters as a number. The numbers that were used to store a character is known as an encoding system. Before the current standards were set, there were many types of encoding systems. This meant that servers had to host multiple systems which ran the risk of corrupting the information. 
+### Unicode
+To reduce confusion and reduce risks of error the Unicode standard was created. Today it is the largest, and most widely used by far. Every operating system, browser, and phone OS all use the Unicode system. There is a non-profit organization called the Unicode Consortium. They were founded to develop, maintain, and extend the functionality of the Unicode system. 
