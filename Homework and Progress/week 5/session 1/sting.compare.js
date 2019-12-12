@@ -1,6 +1,7 @@
 function isUnique(s){
   var hash = {};
   for (var i = 0; i < s.length; i++){
+    var val = s[i];
     if (hash[val]){
       return false;
     }else{
