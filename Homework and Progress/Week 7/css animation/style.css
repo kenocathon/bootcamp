@@ -1,0 +1,119 @@
+
+/*****************************
+******** ANIMATIONS **********
+*****************************/
+
+@keyframes moveBox {
+    0%{top: 0px; top: 0px}
+    15%{top: 475px; left: 0px;}
+    25%{left: 250px; top: 475px;}
+    40%{top: 0px; left: 250px;}
+    50%{left: 520px; top: 0px;}
+    65%{top: 475px; left: 520px}
+    75%{left: 780px; top: 475px}
+    100%{top: 0px; left: 780px;}
+}
+
+.moveBoxSlow{
+    animation-name: moveBox;
+    animation-fill-mode: forwards;
+    animation-duration: 20s;
+    
+    
+}
+.moveBoxFaster{
+    animation-name: moveBox;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    
+}
+.moveBoxFastest{
+    animation-name: moveBox;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+
+}
+
+/*****************************
+******** LAYOUT **************
+*****************************/
+
+/* Environment */
+
+.container{
+    width: 1000px;
+    height: 700px;
+    border: 5px solid black;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    position: relative;    
+}
+
+.barrierDown{
+    width: 30px;
+    height: 470px;
+    background-color: black;
+    position: absolute;
+    left: 220px;
+    top: 0;
+}
+
+.barrierUp{
+    width: 30px;
+    height: 470px;
+    background-color: black;
+    position: absolute;
+    left: 475px;
+    bottom: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.lastBarrier{
+    width: 30px;
+    height: 470px;
+    background-color: black;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+}
+
+.buttons{
+    float: right;
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    background-color: burlywood;
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    
+}
+
+
+/*****************************
+******** STYLES **************
+*****************************/
+
+/*Buttons*/
+button{
+    background-color: #00FF00;
+    color: white;
+    font-size: 2em;
+    padding; 1em;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    display: block;
+    margin-top: 1em;
+}

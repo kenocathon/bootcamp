@@ -9,16 +9,11 @@ var randomRoll;
 
 
 function diceRoll(minSides, maxSides) {
+    randomRoll = Math.floor(Math.random() * (maxSides - minSides) + minSides);
     for (roll = 0; roll < totalRolls; roll++) {
-        randomRoll = Math.floor(Math.random() * (maxSides - minSides) + minSides);
-        currentRoll.push(randomRoll);
-    }
-    console.log(currentRoll);
-    return currentRoll;
+        currentRoll.push(randomRoll);   
+    } 
 }
-
-
-
 
 
 function compareRolls(x) {
@@ -31,7 +26,6 @@ function compareRolls(x) {
     return sumArray;
 }
 
-diceRoll(1,7);
 
-compareRolls(currentRoll);
-
+diceRoll(1,7)
+compareRolls(currentRoll)
