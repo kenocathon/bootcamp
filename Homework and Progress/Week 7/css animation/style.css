@@ -13,6 +13,20 @@
     75%{left: 780px; top: 475px}
     100%{top: 0px; left: 780px;}
 }
+@keyframes borderChange{
+    
+    25%{border-color: green;}
+    50%{border-color: blue;}
+    75%{border-color: red;}
+    100%{border-color: black;}
+
+}
+@keyframes barrierChange{
+    25%{background-color: green;}
+    50%{background-color: blue;}
+    75%{background-color: red;}
+    100%{background-color: black;}
+}
 
 .moveBoxSlow{
     animation-name: moveBox;
@@ -33,6 +47,19 @@
     animation-duration: 5s;
 
 }
+.containerAnimation{
+    animation-name: borderChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.barrierAnimation{
+    animation-name: barrierChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
 
 /*****************************
 ******** LAYOUT **************
@@ -43,11 +70,12 @@
 .container{
     width: 1000px;
     height: 700px;
-    border: 5px solid black;
+    border: 20px solid black;
     margin: 0 auto;
     position: absolute;
     top: 100px;
     left: 100px;
+   
 }
 
 .square{
@@ -74,8 +102,6 @@
     position: absolute;
     left: 475px;
     bottom: 0;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 .lastBarrier{
@@ -84,8 +110,10 @@
     background-color: black;
     position: absolute;
     left: 750px;
-    top: 0px;
+    top: 0px; 
 }
+
+
 
 .buttons{
     float: right;
