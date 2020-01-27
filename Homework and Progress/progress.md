@@ -5,7 +5,8 @@
 - Designing a Technical Solution : Complete
 - Introduction to HTML and Javascript : Complete
 - Project 1: Complete
-- Advanced CSS Concepts: Module 3, First Chapter
+- Advanced CSS Concepts: Complete
+- Introduction to Python Fundamentals: Module 1
 
 ### Assignment Progress:
 
